@@ -8,11 +8,14 @@
 	<title>ToDom</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<!--pode vir no head, mas tem que usar o atributo "defer", porém é recomendado usar no final <script src="assets/js/index.js" defer></script>-->
+
 </head>
 
 <body>
-	<aside>
+	<!-- <aside>
 		<h1>Todo List em JavaScript puro</h1>
 		<h3>Uso</h3>
 		<p>Basta adicionar um texto e pressionar [enter] para adicionar uma tarefa.
@@ -24,7 +27,7 @@
 		<p>
 			Para saber mais, <a href="https://github.com/sergiomoura/todom">visite o repositório do projeto</a>
 		</p>
-	</aside>
+	</aside> -->
 	<main>
 		<form id="form">
 			<input type="text" name="tf_2do" id="tf_2do" autocomplete="off">
@@ -67,5 +70,6 @@
 		</table>
 	</main>
 </body>
+<script src="assets/js/index.js"></script>
 
 </html>
